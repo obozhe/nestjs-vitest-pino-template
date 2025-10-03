@@ -21,6 +21,10 @@ export default {
                 level: 'error',
                 target: path.resolve(__dirname, 'error-rotating-file.transport.js'),
               },
+              {
+                level: 'info',
+                target: path.resolve(__dirname, 'process-stdout.transport.js'),
+              },
             ],
           },
     redact: {
